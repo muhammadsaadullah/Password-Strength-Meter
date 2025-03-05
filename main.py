@@ -3,6 +3,8 @@ import streamlit as st
 def check_password_strength(password):
     score = 0
     
+    st.text_input(type = "password")
+
     # Length Check
     if len(password) >= 8:
         score += 1
