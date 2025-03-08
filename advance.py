@@ -4,7 +4,7 @@ import re
 import os
 
 USER_DATA_FILE = os.path.join(os.getcwd(), "users.json")
-PASSWORD_HISTORY_LIMIT = 10  # Number of previous passwords to remember
+PASSWORD_HISTORY_LIMIT = 15  # Number of previous passwords to remember
 
 # Function to load existing users from file
 def load_users():
