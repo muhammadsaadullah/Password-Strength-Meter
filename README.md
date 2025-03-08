@@ -43,6 +43,7 @@ This repository contains two variants of the project:
 - Does not include a traditional strength meter
 
 ### **Version History:**
+- **v0.0.3** - Updated password history to 15 previous Passwords.
 - **v0.0.2** - Updated password validation with enhanced game-like requirements.
 - **v0.0.1** - Initial advanced implementation with improved password validation and tracking.
 
